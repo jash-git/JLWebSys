@@ -1,5 +1,53 @@
-[Fri Jul 01 22:50:37.479062 2022] [mpm_winnt:notice] [pid 4020:tid 276] AH00455: Apache/2.4.54 (Win32) PHP/8.1.7 configured -- resuming normal operations
-[Fri Jul 01 22:50:37.479062 2022] [mpm_winnt:notice] [pid 4020:tid 276] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:31:11
-[Fri Jul 01 22:50:37.479062 2022] [core:notice] [pid 4020:tid 276] AH00094: Command line: 'C:\\Users\\Usuario\\Arquivos\\USBWebserver v10/apache2/bin/httpd_usbwv8.exe -d C:/Users/Usuario/Arquivos/USBWebserver v10/Apache2'
-[Fri Jul 01 22:50:37.479062 2022] [mpm_winnt:notice] [pid 4020:tid 276] AH00418: Parent: Created child process 4720
-[Fri Jul 01 22:50:38.104063 2022] [mpm_winnt:notice] [pid 4720:tid 276] AH00354: Child: Starting 64 worker threads.
+[Sat Jan 20 16:21:28.800973 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00455: Apache/2.4.54 (Win32) PHP/8.1.7 configured -- resuming normal operations
+[Sat Jan 20 16:21:28.801971 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:31:11
+[Sat Jan 20 16:21:28.801971 2024] [core:notice] [pid 15128:tid 492] AH00094: Command line: 'C:\\Users\\user\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10/apache2/bin/httpd_usbwv8.exe -d C:/Users/user/Desktop/GITHUB/JLWebSys/USBWebserver v10/Apache2'
+[Sat Jan 20 16:21:28.804963 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00418: Parent: Created child process 5648
+[Sat Jan 20 16:21:29.436026 2024] [mpm_winnt:notice] [pid 5648:tid 512] AH00354: Child: Starting 64 worker threads.
+[Sat Jan 20 20:43:48.915665 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00428: Parent: child process 5648 exited with status 3221226356 -- Restarting.
+[Sat Jan 20 20:43:50.911858 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00455: Apache/2.4.54 (Win32) PHP/8.1.7 configured -- resuming normal operations
+[Sat Jan 20 20:43:50.911858 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:31:11
+[Sat Jan 20 20:43:50.911858 2024] [core:notice] [pid 15128:tid 492] AH00094: Command line: 'C:\\Users\\user\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10/apache2/bin/httpd_usbwv8.exe -d C:/Users/user/Desktop/GITHUB/JLWebSys/USBWebserver v10/Apache2'
+[Sat Jan 20 20:43:50.977899 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00418: Parent: Created child process 10688
+[Sat Jan 20 20:43:51.987256 2024] [mpm_winnt:notice] [pid 10688:tid 500] AH00354: Child: Starting 64 worker threads.
+[Sat Jan 20 20:43:55.760256 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00428: Parent: child process 10688 exited with status 3221226356 -- Restarting.
+[Sat Jan 20 20:43:55.796709 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00455: Apache/2.4.54 (Win32) PHP/8.1.7 configured -- resuming normal operations
+[Sat Jan 20 20:43:55.796709 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:31:11
+[Sat Jan 20 20:43:55.796709 2024] [core:notice] [pid 15128:tid 492] AH00094: Command line: 'C:\\Users\\user\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10/apache2/bin/httpd_usbwv8.exe -d C:/Users/user/Desktop/GITHUB/JLWebSys/USBWebserver v10/Apache2'
+[Sat Jan 20 20:43:55.799701 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00418: Parent: Created child process 13380
+[Sat Jan 20 20:43:56.433423 2024] [mpm_winnt:notice] [pid 13380:tid 512] AH00354: Child: Starting 64 worker threads.
+[Sat Jan 20 20:44:00.629041 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00428: Parent: child process 13380 exited with status 3221226356 -- Restarting.
+[Sat Jan 20 20:44:00.662946 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00455: Apache/2.4.54 (Win32) PHP/8.1.7 configured -- resuming normal operations
+[Sat Jan 20 20:44:00.662946 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:31:11
+[Sat Jan 20 20:44:00.662946 2024] [core:notice] [pid 15128:tid 492] AH00094: Command line: 'C:\\Users\\user\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10/apache2/bin/httpd_usbwv8.exe -d C:/Users/user/Desktop/GITHUB/JLWebSys/USBWebserver v10/Apache2'
+[Sat Jan 20 20:44:00.665939 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00418: Parent: Created child process 12336
+[Sat Jan 20 20:44:01.712041 2024] [mpm_winnt:notice] [pid 12336:tid 504] AH00354: Child: Starting 64 worker threads.
+[Sat Jan 20 20:44:16.489973 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00428: Parent: child process 12336 exited with status 3221226356 -- Restarting.
+[Sat Jan 20 20:44:16.860712 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00455: Apache/2.4.54 (Win32) PHP/8.1.7 configured -- resuming normal operations
+[Sat Jan 20 20:44:16.861709 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:31:11
+[Sat Jan 20 20:44:16.861709 2024] [core:notice] [pid 15128:tid 492] AH00094: Command line: 'C:\\Users\\user\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10/apache2/bin/httpd_usbwv8.exe -d C:/Users/user/Desktop/GITHUB/JLWebSys/USBWebserver v10/Apache2'
+[Sat Jan 20 20:44:16.863745 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00418: Parent: Created child process 16204
+[Sat Jan 20 20:44:17.976040 2024] [mpm_winnt:notice] [pid 16204:tid 548] AH00354: Child: Starting 64 worker threads.
+[Sat Jan 20 20:44:19.151203 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00428: Parent: child process 16204 exited with status 3221226356 -- Restarting.
+[Sat Jan 20 20:44:19.190100 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00455: Apache/2.4.54 (Win32) PHP/8.1.7 configured -- resuming normal operations
+[Sat Jan 20 20:44:19.190100 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:31:11
+[Sat Jan 20 20:44:19.190100 2024] [core:notice] [pid 15128:tid 492] AH00094: Command line: 'C:\\Users\\user\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10/apache2/bin/httpd_usbwv8.exe -d C:/Users/user/Desktop/GITHUB/JLWebSys/USBWebserver v10/Apache2'
+[Sat Jan 20 20:44:19.192093 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00418: Parent: Created child process 2832
+[Sat Jan 20 20:44:20.238177 2024] [mpm_winnt:notice] [pid 2832:tid 528] AH00354: Child: Starting 64 worker threads.
+[Sat Jan 20 20:44:25.830288 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00428: Parent: child process 2832 exited with status 3221226356 -- Restarting.
+[Sat Jan 20 20:44:25.873130 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00455: Apache/2.4.54 (Win32) PHP/8.1.7 configured -- resuming normal operations
+[Sat Jan 20 20:44:25.873130 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:31:11
+[Sat Jan 20 20:44:25.873130 2024] [core:notice] [pid 15128:tid 492] AH00094: Command line: 'C:\\Users\\user\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10/apache2/bin/httpd_usbwv8.exe -d C:/Users/user/Desktop/GITHUB/JLWebSys/USBWebserver v10/Apache2'
+[Sat Jan 20 20:44:25.876122 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00418: Parent: Created child process 19448
+[Sat Jan 20 20:44:26.400749 2024] [mpm_winnt:notice] [pid 19448:tid 504] AH00354: Child: Starting 64 worker threads.
+[Sat Jan 20 20:44:27.105359 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00428: Parent: child process 19448 exited with status 3221226356 -- Restarting.
+[Sat Jan 20 20:44:27.134325 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00455: Apache/2.4.54 (Win32) PHP/8.1.7 configured -- resuming normal operations
+[Sat Jan 20 20:44:27.134325 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:31:11
+[Sat Jan 20 20:44:27.134325 2024] [core:notice] [pid 15128:tid 492] AH00094: Command line: 'C:\\Users\\user\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10/apache2/bin/httpd_usbwv8.exe -d C:/Users/user/Desktop/GITHUB/JLWebSys/USBWebserver v10/Apache2'
+[Sat Jan 20 20:44:27.136276 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00418: Parent: Created child process 12772
+[Sat Jan 20 20:44:27.964304 2024] [mpm_winnt:notice] [pid 12772:tid 512] AH00354: Child: Starting 64 worker threads.
+[Sat Jan 20 20:44:35.694530 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00428: Parent: child process 12772 exited with status 3221226356 -- Restarting.
+[Sat Jan 20 20:44:35.724452 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00455: Apache/2.4.54 (Win32) PHP/8.1.7 configured -- resuming normal operations
+[Sat Jan 20 20:44:35.724452 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:31:11
+[Sat Jan 20 20:44:35.724452 2024] [core:notice] [pid 15128:tid 492] AH00094: Command line: 'C:\\Users\\user\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10/apache2/bin/httpd_usbwv8.exe -d C:/Users/user/Desktop/GITHUB/JLWebSys/USBWebserver v10/Apache2'
+[Sat Jan 20 20:44:35.726446 2024] [mpm_winnt:notice] [pid 15128:tid 492] AH00418: Parent: Created child process 21656
+[Sat Jan 20 20:44:36.343082 2024] [mpm_winnt:notice] [pid 21656:tid 512] AH00354: Child: Starting 64 worker threads.
