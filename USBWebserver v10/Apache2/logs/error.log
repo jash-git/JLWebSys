@@ -1,0 +1,5 @@
+[Fri Jul 01 22:50:37.479062 2022] [mpm_winnt:notice] [pid 4020:tid 276] AH00455: Apache/2.4.54 (Win32) PHP/8.1.7 configured -- resuming normal operations
+[Fri Jul 01 22:50:37.479062 2022] [mpm_winnt:notice] [pid 4020:tid 276] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:31:11
+[Fri Jul 01 22:50:37.479062 2022] [core:notice] [pid 4020:tid 276] AH00094: Command line: 'C:\\Users\\Usuario\\Arquivos\\USBWebserver v10/apache2/bin/httpd_usbwv8.exe -d C:/Users/Usuario/Arquivos/USBWebserver v10/Apache2'
+[Fri Jul 01 22:50:37.479062 2022] [mpm_winnt:notice] [pid 4020:tid 276] AH00418: Parent: Created child process 4720
+[Fri Jul 01 22:50:38.104063 2022] [mpm_winnt:notice] [pid 4720:tid 276] AH00354: Child: Starting 64 worker threads.
