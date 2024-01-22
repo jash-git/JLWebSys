@@ -90,10 +90,13 @@
                 dataType:'text',
                 type:'post',
                 success:function (data) {
-                    if (data == '1'){
+					var ans = '1';
+                    if (data.includes(ans)){
+						console.log('data包含1');
                         location.href = "../index.php";
                     }else{
 						console.log(data);
+						console.log('data不包含1');
                         layer.msg('登入名稱或密碼錯誤');
                     }
                 }

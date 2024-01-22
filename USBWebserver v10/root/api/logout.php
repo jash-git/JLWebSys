@@ -1,10 +1,6 @@
 ﻿<?php
-	#启动session
 	session_start();
-	 
-	#清除session
 	unset($_SESSION["user"]);
-	 
-	#重定向
-	header('Location:page/login-1.html');
-?>　
+	header('Location:../page/login.html');
+	exit;
+?>

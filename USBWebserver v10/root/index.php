@@ -2,7 +2,7 @@
 	session_start();
 	if(empty($_SESSION['user']))
 	{
-		header('Location:page/login-1.html');
+		header('Location:page/login.html');
 	}
 ?>
 <!DOCTYPE html>
@@ -167,10 +167,10 @@
         });
 
         $('.login-out').on("click", function () {
-            $.ajax({
-                url:'../api/logout.php',
-                type:'get'
-            })			
+			sessionStorage.clear(); //清除存储在浏览器中的数据
+			layer.msg('登出成功', function () {
+			window.location.href = './api/logout.php'; //跳转登录页
+ 			});		
         });
     });
 </script>
