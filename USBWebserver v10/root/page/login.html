@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>后台管理-登陆</title>
+    <title>後臺管理-登入</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta http-equiv="Access-Control-Allow-Origin" content="*">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -37,15 +37,15 @@
         <div class="layui-form login-form">
             <form class="layui-form" action="../api/login.php" method="post">
                 <div class="layui-form-item logo-title">
-                    <h1>LayuiMini后台登录</h1>
+                    <h1>LayuiMini後臺登入</h1>
                 </div>
                 <div class="layui-form-item">
                     <label class="layui-icon layui-icon-username" for="username"></label>
-                    <input type="text" name="username" lay-verify="required|account" placeholder="用户名或者邮箱" autocomplete="off" class="layui-input" value="admin">
+                    <input type="text" name="username" lay-verify="required|account" placeholder="用戶名或者郵箱" autocomplete="off" class="layui-input" value="admin">
                 </div>
                 <div class="layui-form-item">
                     <label class="layui-icon layui-icon-password" for="password"></label>
-                    <input type="password" name="password" lay-verify="required|password" placeholder="密码" autocomplete="off" class="layui-input" value="123456">
+                    <input type="password" name="password" lay-verify="required|password" placeholder="密碼" autocomplete="off" class="layui-input" value="123456">
                 </div>
                 <div class="layui-form-item">
                     <button class="layui-btn layui-btn layui-btn-normal layui-btn-fluid" lay-submit="" lay-filter="login">登 入</button>
@@ -62,10 +62,10 @@
         var form = layui.form,
             layer = layui.layer;
 
-        // 登录过期的时候，跳出ifram框架
+        // 登錄過期的時候，跳出ifram框架
         if (top.location != self.location) top.location = self.location;
 
-        // 粒子线条背景
+        // 粒子線條背景
         $(document).ready(function(){
             $('.layui-container').particleground({
                 dotColor:'#7ec7fd',
@@ -73,15 +73,15 @@
             });
         });
 
-        // 进行登录操作
+        // 進行登錄操作
         form.on('submit(login)', function (data) {
             console.log(data.field);
             if (data.username == '') {
-                layer.msg('用户名不能为空');
+                layer.msg('用戶名不能為空');
                 return false;
             }
             if (data.password == '') {
-                layer.msg('密码不能为空');
+                layer.msg('密碼不能為空');
                 return false;
             }
             $.ajax({

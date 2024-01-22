@@ -9,9 +9,9 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>layuimini-iframe版 v2 - 基于Layui的后台管理系统前端模板</title>
-    <meta name="keywords" content="layuimini,layui,layui模板,layui后台,后台模板,admin,admin模板,layui mini">
-    <meta name="description" content="layuimini基于layui的轻量级前端后台管理框架，最简洁、易用的后台框架模板，面向所有层次的前后端程序,只需提供一个接口就直接初始化整个框架，无需复杂操作。">
+    <title>layuimini-iframe版 v2 - 基於Layui的後臺管理系統前端範本</title>
+    <meta name="keywords" content="layuimini,layui,layui範本,layui後臺,後臺範本,admin,admin範本,layui mini">
+    <meta name="description" content="layuimini基於layui的羽量級前端後臺管理框架，最簡潔、易用的後臺框架範本，面向所有層次的前後端程式,只需提供一個介面就直接初始化整個框架，無需複雜操作。">
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta http-equiv="Access-Control-Allow-Origin" content="*">
@@ -39,17 +39,17 @@
 
         <div class="layuimini-header-content">
             <a>
-                <div class="layuimini-tool"><i title="展开" class="fa fa-outdent" data-side-fold="1"></i></div>
+                <div class="layuimini-tool"><i title="展開" class="fa fa-outdent" data-side-fold="1"></i></div>
             </a>
 
-            <!--电脑端头部菜单-->
+            <!--電腦端頭部菜單-->
             <ul class="layui-nav layui-layout-left layuimini-header-menu layuimini-menu-header-pc layuimini-pc-show">
             </ul>
 
-            <!--手机端头部菜单-->
+            <!--手機端頭部菜單-->
             <ul class="layui-nav layui-layout-left layuimini-header-menu layuimini-mobile-show">
                 <li class="layui-nav-item">
-                    <a href="javascript:;"><i class="fa fa-list-ul"></i> 选择模块</a>
+                    <a href="javascript:;"><i class="fa fa-list-ul"></i> 選擇模組</a>
                     <dl class="layui-nav-child layuimini-menu-header-mobile">
                     </dl>
                 </li>
@@ -67,19 +67,19 @@
                     <a href="javascript:;" data-check-screen="full"><i class="fa fa-arrows-alt"></i></a>
                 </li>
                 <li class="layui-nav-item layuimini-setting">
-                    <a href="javascript:;">admin</a>
+                    <a href="javascript:;"><?php $UserName = $_SESSION['user']; echo $UserName; ?></a>
                     <dl class="layui-nav-child">
                         <dd>
-                            <a href="javascript:;" layuimini-content-href="page/user-setting.html" data-title="基本资料" data-icon="fa fa-gears">基本资料<span class="layui-badge-dot"></span></a>
+                            <a href="javascript:;" layuimini-content-href="page/user-setting.html" data-title="基本資料" data-icon="fa fa-gears">基本資料<span class="layui-badge-dot"></span></a>
                         </dd>
                         <dd>
-                            <a href="javascript:;" layuimini-content-href="page/user-password.html" data-title="修改密码" data-icon="fa fa-gears">修改密码</a>
+                            <a href="javascript:;" layuimini-content-href="page/user-password.html" data-title="修改密碼" data-icon="fa fa-gears">修改密碼</a>
                         </dd>
                         <dd>
                             <hr>
                         </dd>
                         <dd>
-                            <a href="javascript:;" class="login-out">退出登录</a>
+                            <a href="javascript:;" class="login-out">退出登錄</a>
                         </dd>
                     </dl>
                 </li>
@@ -90,19 +90,19 @@
         </div>
     </div>
 
-    <!--无限极左侧菜单-->
+    <!--無限極左側菜單-->
     <div class="layui-side layui-bg-black layuimini-menu-left">
     </div>
 
-    <!--初始化加载层-->
+    <!--初始化載入層-->
     <div class="layuimini-loader">
         <div class="layuimini-loader-inner"></div>
     </div>
 
-    <!--手机端遮罩层-->
+    <!--手機端遮罩層-->
     <div class="layuimini-make"></div>
 
-    <!-- 移动导航 -->
+    <!-- 移動導航 -->
     <div class="layuimini-site-mobile"><i class="layui-icon"></i></div>
 
     <div class="layui-body">
@@ -119,9 +119,9 @@
                         <li class="layui-nav-item">
                             <a href="javascript:;"><span class="layui-nav-more"></span></a>
                             <dl class="layui-nav-child">
-                                <dd><a href="javascript:;" layuimini-tab-close="current">关 闭 当 前</a></dd>
-                                <dd><a href="javascript:;" layuimini-tab-close="other">关 闭 其 他</a></dd>
-                                <dd><a href="javascript:;" layuimini-tab-close="all">关 闭 全 部</a></dd>
+                                <dd><a href="javascript:;" layuimini-tab-close="current">關 閉 當 前</a></dd>
+                                <dd><a href="javascript:;" layuimini-tab-close="other">關 閉 其 他</a></dd>
+                                <dd><a href="javascript:;" layuimini-tab-close="all">關 閉 全 部</a></dd>
                             </dl>
                         </li>
                     </ul>
@@ -144,19 +144,19 @@
             miniTongji = layui.miniTongji;
 
         var options = {
-            iniUrl: "api/init.json",    // 初始化接口
-            clearUrl: "api/clear.json", // 缓存清理接口
-            urlHashLocation: true,      // 是否打开hash定位
-            bgColorDefault: false,      // 主题默认配置
-            multiModule: true,          // 是否开启多模块
-            menuChildOpen: false,       // 是否默认展开菜单
-            loadingTime: 0,             // 初始化加载时间
-            pageAnim: true,             // iframe窗口动画
-            maxTabNum: 20,              // 最大的tab打开数量
+            iniUrl: "api/init.json",    // 初始化介面
+            clearUrl: "api/clear.json", // 緩存清理介面
+            urlHashLocation: true,      // 是否打開hash定位
+            bgColorDefault: false,      // 主題預設配置
+            multiModule: true,          // 是否開啟多模組
+            menuChildOpen: false,       // 是否預設展開菜單
+            loadingTime: 0,             // 初始化載入時間
+            pageAnim: true,             // iframe窗口動畫
+            maxTabNum: 20,              // 最大的tab打開數量
         };
         miniAdmin.render(options);
 
-        // 百度统计代码，只统计指定域名
+        // 百度統計代碼，只統計指定功能變數名稱
         miniTongji.render({
             specific: true,
             domains: [
@@ -167,9 +167,9 @@
         });
 
         $('.login-out').on("click", function () {
-			sessionStorage.clear(); //清除存储在浏览器中的数据
+			sessionStorage.clear(); //清除存儲在流覽器中的資料
 			layer.msg('登出成功', function () {
-			window.location.href = './api/logout.php'; //跳转登录页
+			window.location.href = './api/logout.php'; //跳轉登錄頁
  			});		
         });
     });
