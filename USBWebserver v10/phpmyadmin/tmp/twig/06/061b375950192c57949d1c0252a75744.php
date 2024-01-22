@@ -81,6 +81,6 @@ echo _gettext("Close");
 
     public function getSourceContext()
     {
-        return new Source("", "modals/create_view.twig", "C:\\Users\\Usuario\\Arquivos\\USBWebserver v8.6.6\\phpmyadmin\\templates\\modals\\create_view.twig");
+        return new Source("", "modals/create_view.twig", "C:\\Users\\devel\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10\\phpmyadmin\\templates\\modals\\create_view.twig");
     }
 }

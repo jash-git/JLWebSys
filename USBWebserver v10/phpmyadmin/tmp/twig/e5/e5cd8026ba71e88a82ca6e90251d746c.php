@@ -68,6 +68,6 @@ class __TwigTemplate_57be633f3d7e5e6418a9e0f600afa2b0 extends Template
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/null_display.twig", "C:\\Users\\user\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10\\phpmyadmin\\templates\\display\\results\\null_display.twig");
+        return new Source("", "display/results/null_display.twig", "C:\\Users\\devel\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10\\phpmyadmin\\templates\\display\\results\\null_display.twig");
     }
 }
