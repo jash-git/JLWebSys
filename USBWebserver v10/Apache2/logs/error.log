@@ -1,8 +1,5 @@
-[Mon Jan 22 13:01:17.491433 2024] [mpm_winnt:notice] [pid 31560:tid 500] AH00455: Apache/2.4.54 (Win32) PHP/8.1.7 configured -- resuming normal operations
-[Mon Jan 22 13:01:17.491433 2024] [mpm_winnt:notice] [pid 31560:tid 500] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:31:11
-[Mon Jan 22 13:01:17.491433 2024] [core:notice] [pid 31560:tid 500] AH00094: Command line: 'C:\\Users\\devel\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10/apache2/bin/httpd_usbwv8.exe -d C:/Users/devel/Desktop/GITHUB/JLWebSys/USBWebserver v10/Apache2'
-[Mon Jan 22 13:01:17.495508 2024] [mpm_winnt:notice] [pid 31560:tid 500] AH00418: Parent: Created child process 12048
-[Mon Jan 22 13:01:17.886342 2024] [mpm_winnt:notice] [pid 12048:tid 512] AH00354: Child: Starting 64 worker threads.
-[Mon Jan 22 13:01:54.020245 2024] [php:warn] [pid 12048:tid 1188] [client 127.0.0.1:64464] PHP Warning:  Undefined array key "user" in C:\\Users\\devel\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10\\root\\api\\login.php on line 2
-[Mon Jan 22 13:01:54.020245 2024] [php:warn] [pid 12048:tid 1188] [client 127.0.0.1:64464] PHP Warning:  Undefined array key "pwd" in C:\\Users\\devel\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10\\root\\api\\login.php on line 3
-[Mon Jan 22 13:01:54.020245 2024] [php:notice] [pid 12048:tid 1188] [client 127.0.0.1:64464] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\\Users\\devel\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10\\root\\api\\login.php on line 3
+[Mon Jan 22 14:17:41.467909 2024] [mpm_winnt:notice] [pid 20904:tid 660] AH00455: Apache/2.4.54 (Win32) PHP/8.1.7 configured -- resuming normal operations
+[Mon Jan 22 14:17:41.467909 2024] [mpm_winnt:notice] [pid 20904:tid 660] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:31:11
+[Mon Jan 22 14:17:41.467909 2024] [core:notice] [pid 20904:tid 660] AH00094: Command line: 'C:\\Users\\devel\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10/apache2/bin/httpd_usbwv8.exe -d C:/Users/devel/Desktop/GITHUB/JLWebSys/USBWebserver v10/Apache2'
+[Mon Jan 22 14:17:41.472942 2024] [mpm_winnt:notice] [pid 20904:tid 660] AH00418: Parent: Created child process 17356
+[Mon Jan 22 14:17:42.076815 2024] [mpm_winnt:notice] [pid 17356:tid 656] AH00354: Child: Starting 64 worker threads.
