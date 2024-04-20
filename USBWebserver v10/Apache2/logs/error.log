@@ -1,13 +1,7 @@
-[Mon Jan 22 15:59:46.649722 2024] [mpm_winnt:notice] [pid 12936:tid 496] AH00455: Apache/2.4.54 (Win32) PHP/8.1.7 configured -- resuming normal operations
-[Mon Jan 22 15:59:46.649722 2024] [mpm_winnt:notice] [pid 12936:tid 496] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:31:11
-[Mon Jan 22 15:59:46.649722 2024] [core:notice] [pid 12936:tid 496] AH00094: Command line: 'C:\\Users\\devel\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10/apache2/bin/httpd_usbwv8.exe -d C:/Users/devel/Desktop/GITHUB/JLWebSys/USBWebserver v10/Apache2'
-[Mon Jan 22 15:59:46.652722 2024] [mpm_winnt:notice] [pid 12936:tid 496] AH00418: Parent: Created child process 23864
-[Mon Jan 22 15:59:47.022671 2024] [mpm_winnt:notice] [pid 23864:tid 496] AH00354: Child: Starting 64 worker threads.
-[Mon Jan 22 16:05:34.061424 2024] [php:notice] [pid 23864:tid 1196] [client ::1:64872] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\\Users\\devel\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10\\root\\index.php on line 70
-[Mon Jan 22 16:05:34.061424 2024] [php:warn] [pid 23864:tid 1196] [client ::1:64872] PHP Warning:  Undefined array key "user" in C:\\Users\\devel\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10\\root\\index.php on line 70
-[Mon Jan 22 16:05:45.973472 2024] [php:notice] [pid 23864:tid 1200] [client ::1:64873] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\\Users\\devel\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10\\root\\index.php on line 70, referer: http://localhost/page/login.html
-[Mon Jan 22 16:05:45.973472 2024] [php:warn] [pid 23864:tid 1200] [client ::1:64873] PHP Warning:  Array to string conversion in C:\\Users\\devel\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10\\root\\index.php on line 70, referer: http://localhost/page/login.html
-[Mon Jan 22 16:07:36.595220 2024] [php:notice] [pid 23864:tid 1196] [client ::1:64888] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\\Users\\devel\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10\\root\\index.php on line 70, referer: http://localhost/page/login.html
-[Mon Jan 22 16:07:36.595220 2024] [php:warn] [pid 23864:tid 1196] [client ::1:64888] PHP Warning:  Array to string conversion in C:\\Users\\devel\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10\\root\\index.php on line 70, referer: http://localhost/page/login.html
-[Mon Jan 22 16:09:11.988302 2024] [php:warn] [pid 23864:tid 1196] [client ::1:64898] PHP Warning:  Array to string conversion in C:\\Users\\devel\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10\\root\\index.php on line 70, referer: http://localhost/page/login.html
-[Mon Jan 22 16:11:44.018575 2024] [php:warn] [pid 23864:tid 1196] [client ::1:64927] PHP Warning:  Array to string conversion in C:\\Users\\devel\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10\\root\\index.php on line 70, referer: http://localhost/page/login.html
+[Sat Apr 20 12:25:07.431090 2024] [mpm_winnt:notice] [pid 23664:tid 492] AH00455: Apache/2.4.54 (Win32) PHP/8.1.7 configured -- resuming normal operations
+[Sat Apr 20 12:25:07.431090 2024] [mpm_winnt:notice] [pid 23664:tid 492] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:31:11
+[Sat Apr 20 12:25:07.432087 2024] [core:notice] [pid 23664:tid 492] AH00094: Command line: 'C:\\Users\\user\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10/apache2/bin/httpd_usbwv8.exe -d C:/Users/user/Desktop/GITHUB/JLWebSys/USBWebserver v10/Apache2'
+[Sat Apr 20 12:25:07.444055 2024] [mpm_winnt:notice] [pid 23664:tid 492] AH00418: Parent: Created child process 18732
+[Sat Apr 20 12:25:09.743294 2024] [mpm_winnt:notice] [pid 18732:tid 512] AH00354: Child: Starting 64 worker threads.
+[Sat Apr 20 12:25:12.878909 2024] [php:warn] [pid 18732:tid 1204] [client ::1:1531] PHP Warning:  Undefined array key "user" in C:\\Users\\user\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10\\root\\index.php on line 70
+[Sat Apr 20 12:26:50.982131 2024] [php:warn] [pid 18732:tid 1200] [client ::1:1857] PHP Warning:  Undefined array key "user" in C:\\Users\\user\\Desktop\\GITHUB\\JLWebSys\\USBWebserver v10\\root\\index.php on line 70
