@@ -1,0 +1,6 @@
+00_php+layuimini资产管理系统源码 [從CSDN下載的原始資料]
+01_layuimini-2.0.6.1資產管理系統原始碼
+	替換layuimini版本
+	UI簡體轉繁體
+	修正UI顯示亂碼問題
+
